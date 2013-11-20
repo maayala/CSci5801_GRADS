@@ -20,7 +20,7 @@ public class StudentRecord {
 		this.student = student;
 	}
 	public String getDepartment() {
-		return department;
+		return department.toString();
 	}
 	public void setDepartment(Department department) {
 		this.department = department;
